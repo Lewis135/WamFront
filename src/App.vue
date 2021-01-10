@@ -55,15 +55,6 @@ export default {
     Layout,
     CustomButton,
   },
-
-  methods: {
-    eventChangeBackground() {
-      this.changeBackground = true;
-      // this.$axios.get("https://picsum.photos/1500/800").then((resp) => {
-      //   this.bgImage = resp.data;
-      // });
-    },
-  },
 };
 </script>
 

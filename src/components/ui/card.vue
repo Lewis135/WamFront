@@ -16,11 +16,15 @@
 
     <div class="text-center">
       <!-- Title -->
-      <h2>{{ title }}</h2>
+      <h2 class="linkWrapper">{{ title }}</h2>
       <!-- Links -->
       <div>
-        <div v-for="(url, index) in urlList" :key="index" class="my-4 link">
-          <a class="font-fort font-medium" :href="url.value">
+        <div
+          v-for="(url, index) in urlList"
+          :key="index"
+          class="my-4 linkWrapper"
+        >
+          <a class="font-fort font-medium underline" :href="url.value">
             {{ url.label }}
           </a>
         </div>

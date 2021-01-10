@@ -6,7 +6,7 @@
   >
     <div class="max-w-screen-xl flex flex-col space-beetween mx-auto">
       <!-- Title -->
-      <div class="p-8 flex-col-center">
+      <div class="m-8 mb-6 flex-col-center">
         <h1 class="pb-6">{{ title }}</h1>
         <h3 class="font-fort text-lg">{{ subtitle }}</h3>
       </div>
@@ -17,7 +17,7 @@
       </div>
 
       <!-- Slot footer -->
-      <div class="h-screen-15">
+      <div class="my-6">
         <slot name="footer" />
       </div>
     </div>
