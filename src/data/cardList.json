@@ -1,0 +1,114 @@
+[
+    {
+        "id": 1,
+        "title": "Marketing Strategies",
+        "urlList": [
+            {
+                "label": "Branding",
+                "value": "www.google.com"
+            },
+            {
+                "label": "Digital Customer experience",
+                "value": "www.google.com"
+            },
+            {
+                "label": "Sales Enablement",
+                "value": "www.google.com"
+            },
+            {
+                "label": "Inbound Marketing",
+                "value": "www.google.com"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Creative & Development",
+        "urlList": [
+            {
+                "label": "Web Development",
+                "value": "www.google.com"
+            },
+            {
+                "label": "Design Thinking",
+                "value": "www.google.com"
+            },
+            {
+                "label": "UX",
+                "value": "www.google.com"
+            },
+            {
+                "label": "E-Commerce",
+                "value": "www.google.com"
+            },
+            {
+                "label": "Mobile & Web Apps",
+                "value": "www.google.com"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Integrated Marketing",
+        "urlList": [
+            {
+                "label": "Search (SEO)",
+                "value": "www.google.com"
+            },
+            {
+                "label": "Content Marketing",
+                "value": "www.google.com"
+            },
+            {
+                "label": "Social Media Marketing",
+                "value": "www.google.com"
+            },
+            {
+                "label": "Email Marketing",
+                "value": "www.google.com"
+            },
+            {
+                "label": "Digital PR",
+                "value": "www.google.com"
+            },
+            {
+                "label": "Conversion Rate Optimization (CRO)",
+                "value": "www.google.com"
+            },
+            {
+                "label": "Pain Media",
+                "value": "www.google.com"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Scaling Technology",
+        "urlList": [
+            {
+                "label": "CRM",
+                "value": "www.google.com"
+            },
+            {
+                "label": "Business Intelligence & Analytics",
+                "value": "www.google.com"
+            },
+            {
+                "label": "Artificial Intelligence for Marketing and Sales",
+                "value": "www.google.com"
+            },
+            {
+                "label": "Salesforce Data Management Platform (DMP)",
+                "value": "www.google.com"
+            },
+            {
+                "label": "Internet of Things (IoT)",
+                "value": "www.google.com"
+            },
+            {
+                "label": "Marketing Automation",
+                "value": "www.google.com"
+            }
+        ]
+    }
+]
