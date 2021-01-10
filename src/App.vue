@@ -27,7 +27,11 @@
       <!-- Footer -->
       <template v-slot:footer>
         <div class="flex-row-center h-full justify-items-centercenter">
-          <CustomButton class="my-auto" label="All our services" />
+          <CustomButton
+            class="my-auto"
+            label="All our services"
+            url="ricardo"
+          />
         </div>
       </template>
     </Layout>

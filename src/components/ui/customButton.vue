@@ -1,6 +1,6 @@
 <template>
   <div>
-    <a class="buttonStyle bounce-to-bottom">
+    <a :href="url" class="buttonStyle bounce-to-bottom">
       {{ label }}
     </a>
   </div>
@@ -11,6 +11,7 @@ export default {
   name: "CustomButton",
   props: {
     label: { required: false, type: String, default: "Services" },
+    url: { required: false, type: String, default: "#" },
   },
 };
 </script>

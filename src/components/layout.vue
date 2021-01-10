@@ -5,10 +5,12 @@
     :style="backgroundStyle"
   >
     <div class="max-w-screen-xl flex flex-col space-beetween mx-auto">
-      <!-- Title -->
+      <!-- Header -->
       <div class="m-8 mb-6 flex-col-center">
-        <h1 class="pb-6">{{ title }}</h1>
-        <h3 class="font-fort text-lg">{{ subtitle }}</h3>
+        <slot name="header">
+          <h1 class="pb-6">{{ title }}</h1>
+          <h3 v-if="subtitle" class="font-fort text-lg">{{ subtitle }}</h3>
+        </slot>
       </div>
 
       <!-- Slot Content -->
